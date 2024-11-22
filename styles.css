@@ -1,0 +1,6 @@
+/* global styling by removing default margin and padding  */
+*,::after,::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
