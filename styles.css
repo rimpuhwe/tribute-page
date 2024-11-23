@@ -12,6 +12,7 @@
     --main-color:white;
     --background-color:#f1fff1;
     --font-family:'Rajdhani', sans-serif;
+    --box-shadow:5px 5px 20px 5px gainsboro;
 }
 /* body */
 body{
@@ -34,7 +35,27 @@ section{
     height:100vh;
     border-bottom:1px dashed var(--header-color)
 }
+/* coloring the headings */
 h1,h2,h4{
     color:var(--header-color);
     margin:10px 0;
 }
+/* accesing image container using its id  */
+#img-div{
+    width:50%;
+    padding:10px;
+    height:auto;
+    margin:10px auto;
+    box-shadow: var(--box-shadow);
+    border-radius:20px;
+}
+figure{
+    width:60%;
+    margin:0 auto;
+}
+#img-div #img-caption{
+    font-size:16px;
+    text-align:center;
+    color:var(--header-color)
+}
+
