@@ -1,5 +1,7 @@
+/* importing the font-family */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 /* global styling by removing default margin and padding  */
-*,::after,::before{
+*, ::after, ::before{
     margin:0;
     padding:0;
     box-sizing:border-box;
