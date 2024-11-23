@@ -6,3 +6,11 @@
     padding:0;
     box-sizing:border-box;
 }
+/* declaring variable */
+:root{
+    --header-color:#002500;
+    --main-color:white;
+    --background-color:#e0ffe0;
+    --font-family:'Rajdhani', sans-serif;
+
+}
