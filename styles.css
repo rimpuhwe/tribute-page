@@ -95,4 +95,41 @@ figure{
 strong{
     color:var(--header-color);
 }
+#tribute-info{
+    padding-top:20px;
+    width:90%;
+}
+#tribute-info h2{
+    font-size:24px;
+    margin-bottom:10px;   
+}
+#tribute-info .content-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "first third"
+    "second second";
+    row-gap:20px;
+    padding:20px 0;
+    margin:20px 0;
+}
+#tribute-info .content-container p:nth-child(1){
+    grid-area: first;
+    width:80%;
+}
+#tribute-info .content-container p:nth-child(2){
+    grid-area: second;
+}
+#tribute-info .content-container p:nth-child(3){
+    grid-area: third;
+    width:80%;
+}
+#tribute-info .content-container .first-paragraph::first-letter{
+    font-size: 1.5rem;
+    color:var(--header-color); 
+    font-weight: 700;    
+}
+    
+
 
