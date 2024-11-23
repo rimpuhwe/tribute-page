@@ -14,6 +14,37 @@
     --font-family:'Rajdhani', sans-serif;
     --box-shadow:5px 5px 20px 5px gainsboro;
 }
+/* different styles for my font  */
+
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
 /* body */
 body{
     width:100%;
@@ -40,6 +71,9 @@ h1,h2,h4{
     color:var(--header-color);
     margin:10px 0;
 }
+h4{
+    font-size:20px;
+}
 /* accesing image container using its id  */
 #img-div{
     width:50%;
@@ -56,6 +90,9 @@ figure{
 #img-div #img-caption{
     font-size:16px;
     text-align:center;
-    color:var(--header-color)
+    color:var(--header-color);
+}
+strong{
+    color:var(--header-color);
 }
 
