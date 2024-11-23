@@ -10,7 +10,31 @@
 :root{
     --header-color:#002500;
     --main-color:white;
-    --background-color:#e0ffe0;
+    --background-color:#f1fff1;
     --font-family:'Rajdhani', sans-serif;
-
+}
+/* body */
+body{
+    width:100%;
+    height:100vh;
+    background-color:var(--background-color);
+    font-family:var(--font-family);
+}
+/* main */
+main{
+    width:90%;
+    height:auto;
+    margin:0 auto;
+    padding:20px;
+    background:var(--main-color);
+}
+/* height and border-bottom for  sections */
+section{
+    padding:10px;
+    height:100vh;
+    border-bottom:1px dashed var(--header-color)
+}
+h1,h2,h4{
+    color:var(--header-color);
+    margin:10px 0;
 }
