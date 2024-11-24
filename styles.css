@@ -61,10 +61,8 @@ main{
     width:90%;
     margin:0 auto;
     padding:20px;
-    background: var(--secondary-color);
     height: auto;
 }
-
 /* height and border-bottom for sections */
 section{
     padding:10px;
@@ -176,18 +174,40 @@ strong{
     list-style-type:none;
 }
 
-footer{
+footer,header{
     width:100%;
-    height:auto;
+    height:40%;
     background: #002500;
     color: var(--background-color);
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
 }
 
 footer span {
     margin: 20px auto;
 }
-
+a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 900;
+}
+header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    width:50%;
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav a{
+    color:var(--background-color)
+}
+header nav a:hover{
+    color:var(--secondary-color)
+}
 
 
