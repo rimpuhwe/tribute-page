@@ -1,11 +1,13 @@
 /* importing the font-family */
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 /* global styling by removing default margin and padding  */
 *, ::after, ::before{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
+
 /* declaring variable */
 :root{
     --primary-color:#002500;
@@ -15,65 +17,71 @@
     --font-family:'Rajdhani', sans-serif;
     --box-shadow:5px 5px 20px 5px gainsboro;
 }
-/* different styles for my font  */
 
+/* different styles for my font  */
 .rajdhani-light {
     font-family: "Rajdhani", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
-  
-  .rajdhani-regular {
+}
+
+.rajdhani-regular {
     font-family: "Rajdhani", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
-  
-  .rajdhani-medium {
+}
+
+.rajdhani-medium {
     font-family: "Rajdhani", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
-  
-  .rajdhani-semibold {
+}
+
+.rajdhani-semibold {
     font-family: "Rajdhani", sans-serif;
     font-weight: 600;
     font-style: normal;
-  }
-  
-  .rajdhani-bold {
+}
+
+.rajdhani-bold {
     font-family: "Rajdhani", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
+
 /* body */
 body{
     width:100%;
-    height:100vh;
+    height:auto;
     font-family:var(--font-family);
 }
+
 /* main */
 main{
     width:90%;
-    height:auto;
     margin:0 auto;
     padding:20px;
+    background: var(--secondary-color);
+    height: auto;
 }
-/* height and border-bottom for  sections */
+
+/* height and border-bottom for sections */
 section{
     padding:10px;
-    height:100vh;
     border-bottom:1px dashed var(--primary-color);
 }
+
 /* coloring the headings */
 h1,h2,h4{
     color:var(--primary-color);
     margin:10px 0;
 }
+
 h4{
     font-size:20px;
 }
-/* accesing image container using its id  */
+
+/* accessing image container using its id */
 #img-div{
     width:50%;
     padding:10px;
@@ -82,27 +90,33 @@ h4{
     box-shadow: var(--box-shadow);
     border-radius:20px;
 }
+
 figure{
     width:60%;
     margin:0 auto;
 }
+
 #img-div #img-caption{
     font-size:16px;
     text-align:center;
     color:var(--primary-color);
 }
+
 strong{
     color:var(--primary-color);
 }
-/* tribute-info section styling  */
+
+/* tribute-info section styling */
 #tribute-info{
     padding-top:20px;
     width:90%;
 }
+
 #tribute-info h2{
     font-size:24px;
     margin-bottom:10px;   
 }
+
 #tribute-info .content-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -115,44 +129,65 @@ strong{
     padding:20px 0;
     margin:20px 0;
 }
-/* giving the grid names  */
+
+/* giving the grid names */
 #tribute-info .content-container p:nth-child(1){
     grid-area: first;
     width:80%;
 }
+
 #tribute-info .content-container p:nth-child(2){
     grid-area: second;
 }
+
 #tribute-info .content-container p:nth-child(3){
     grid-area: third;
     width:80%;
 }
-/* tornishing the very first letter of a certain paragraph */
+
+/* styling the very first letter of a certain paragraph */
 #tribute-info .content-container .first-paragraph::first-letter{
     font-size: 1.5rem;
     color:var(--primary-color); 
     font-weight: 700;    
 }
-/* key-section styling which is the last one   */
+
+/* key-section styling */
 #key-section{
     padding:20px 0;
     border-bottom: none;
-    
 }
+
 #key-section h2{
     font-size:24px;
     margin-bottom:10px;
 }
+
 #key-section span{
     color:var(--secondary-color);
 }
+
 .list-container .list{
     width:90%;
     margin:20px 0;
 }
+
 .list ul {
     list-style-type:none;
 }
-    
+
+footer{
+    width:100%;
+    height:auto;
+    background: #002500;
+    color: var(--background-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer span {
+    margin: 20px auto;
+}
+
 
 
