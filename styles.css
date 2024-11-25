@@ -87,11 +87,21 @@ h4{
     margin:10px auto;
     box-shadow: var(--box-shadow);
     border-radius:20px;
+    border: 1px solid red;
 }
 
 figure{
     width:60%;
     margin:0 auto;
+    border:1px solid var(--primary-color);
+}
+#image{
+    max-width:100%;
+    height:auto;
+    margin:0 auto;
+}
+img{
+    display:block;
 }
 
 #img-div #img-caption{
